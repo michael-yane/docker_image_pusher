@@ -2,10 +2,10 @@
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
-#hello-world
+hello-world
 #python:latest
 #ubuntu
-docker.io/library/mysql:5.7
+#docker.io/library/mysql:5.7
 #支持指定架构，amd64代表本机x86_64架构
 #--platform=linux/arm64 xiaoyaliu/alistamd64
 #--platform=linux/amd64 docker.io/library/
