@@ -3,7 +3,7 @@ nginx
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 hello-world
-python
+python:latest
 ubuntu
 mysql:5.7
 #支持指定架构，amd64代表本机x86_64架构
