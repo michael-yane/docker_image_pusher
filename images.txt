@@ -5,10 +5,10 @@
 #hello-world
 #python:latest
 #ubuntu
-#--platform=linux/amd64 docker.io/library/mysql:8.4
-#--platform=linux/amd64 apache/airflow:2.10.5-python3.12
---platform=linux/amd64 docker.io/library/postgres:15.10
---platform=linux/amd64 docker.io/library/redis:7.4.2
+--platform=linux/amd64 docker.io/library/mysql:5.7
+--platform=linux/amd64 apache/airflow:2.4.2-python3.10
+--platform=linux/amd64 docker.io/library/postgres:13
+#--platform=linux/amd64 docker.io/library/redis:7.4.2
 #支持指定架构，amd64代表本机x86_64架构
 #--platform=linux/arm64 xiaoyaliu/alistamd64
 #--platform=linux/amd64 docker.io/library/
